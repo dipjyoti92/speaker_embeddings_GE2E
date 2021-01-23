@@ -10,9 +10,6 @@ Run `pip install -r requirements.txt` to install the necessary packages.
 
 A GPU is mandatory, but you don't necessarily need a high tier GPU if you only want to use the toolbox.
 
-### Pretrained models
-Download the latest [here](https://drive.google.com/file/d/1p7Mf8DHG9yctzXxMUglalg9dZlGR9-Oy/view?usp=sharing).
-The pretrained model should be stored inside /encoder/saved_models folder.
 ### Datasets
 
 Ideally, all your datasets are kept under a same directory i.e., <datasets_root>. All prepreprocessing scripts will, by default, output the clean data to a new directory SV2TTS created in your datasets root directory. Inside this directory will be created a directory for the encoder.
